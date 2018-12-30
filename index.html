@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Home</title>
+  </head>
+  <body>
+    <div id="clock">
+      <p class="date">{{ date }}</p>
+      <p class="time">{{ time }}</p>
+    </div>
+
+    <div id="search">
+      <form class="searchBar" action="http://www.google.com/search" method="get"  >
+          <input type="text" name="q" />
+      </form>
+    </div>
+    <div id= "buttons">
+      <div class ="messanger">
+        <a href ="https://www.messenger.com/t/1395436513901120">
+        <img src="src\messangerGray.png" alt="messangerIcon" height="100%" width="100%">
+        <img src ="src\messanger.png" class="img-top-messanger" alt="messangerIcon" height="100%" width="100%">
+        </a>
+      </div>
+
+      <div class ="Gmail">
+        <a href ="http://gmail.com/">
+        <img src="src\gmailLogogray.png" alt="gmailIcon" height="100%" width="100%">
+        <img src ="src\gmailLogo.png" class="img-top-gmail" alt="gmailIcon" height="100%" width="100%">
+        </a>
+      </div>
+
+      <div class ="Twitter">
+        <a href="https://twitter.com/?lang=en-gb">
+        <img src="src\twitterGraynew.png" alt="twitterIcon" height="100%" width="100%">
+        <img src ="src\twitternew.png" class="img-top-twitterIcon" alt="twitterIcon" height="100%" width="100%">
+        </a>
+      </div>
+
+      <div class ="Youtube">
+        <a href="https://www.youtube.com/">
+        <img src="src\youtubegray.png" alt="youtubeIcon" height="100%" width="100%">
+        <img src ="src\youtubwe.png" class="img-top-youtubeIcon" alt="youtubeIcon" height="100%" width="100%">
+        </a>
+      </div>
+
+      <div class ="Netflix">
+        <a href="https://www.netflix.com/">
+        <img src="src\netflixLogogray.png" alt="netflixIcon" height="100%" width="100%">
+        <img src ="src\netflixLogo.png" class="img-top-netflix" alt="netflixIcon" height="100%" width="100%">
+        </a>
+      </div>
+
+      <div class ="Reddit">
+        <a href="https://www.reddit.com/">
+        <img src="src\redditGray.png" alt="redditIcon" height="100%" width="100%">
+        <img src ="src\redditLogo.png" class ="img-top-reddit" alt="redditIcon" height="100%" width="100%">
+        </a>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="date.js"></script>
+  </body>
+</html>
